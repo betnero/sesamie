@@ -22,3 +22,15 @@ url = {
 
 for i in url:
     webbrowser.open(i)
+
+"""
+You could get the same result with tuples:
+import webbrowser
+l = webbrowser.open
+l('put_a_link_here')
+
+TODO: 
+- verify the possibility of using selenium.
+- import urls from a JSON
+- import current user bookmarks from browser
+"""
